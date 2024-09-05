@@ -7,6 +7,12 @@ This project shows how to use a basic timer (TIM3) in an STM32 microcontroller t
 - **LED D3**: A blink pattern for LED D3 is implemented in the Timer 3 callback function as a visual indicator controlled by the timer.
 - **After 15 seconds**: After 15 seconds of running in the main loop, the `HAL_TIM_PeriodElapsedCallback` function starts, adjusting the timer and controlling the LED D3 blink pattern.
 
+## TIM3 Configuration 
+![image](https://github.com/user-attachments/assets/d257d5e5-e1c2-4866-a7de-805c9062387e)
+
+## Clock Configuration 
+![image](https://github.com/user-attachments/assets/5ceecb1a-d390-43bf-b39b-10a4a7007610)
+
 Microcontroller STM32F4VE
 
 Course name: Mastering STM32 microcontrollers
